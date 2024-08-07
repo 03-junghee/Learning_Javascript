@@ -20,7 +20,26 @@
 
 (Whenever you declare a variable, you can use let to know whether I used this name as a variable name or not before.)
 
-- When setting a variable, use const to set a variable whose value doesn't change.
+- When setting a variable, use const to set a variable whose value does not change.
     Ex) const PI = 3.14;
 
 (When using const, most invariant values are used. So variable names are often capitalized to inform other users of this.)
+
+<POINTS TO BE AWARE OF WHEN SETTING VARIABLES>
+
+- Variable names must consist of only letters and numbers, '$' and '_'.
+    Ex) let _ = 1;
+        let $ = 3;
+
+- The first letter of a variable name is not a number.
+    Ex) let 1stGrade = 'A+'; (X)
+
+- Cannot use reserved word for variable name.
+    Ex) let let = 99; (X)
+
+- In general, constants are capitalized.
+    Ex) const MAX_SIZE = 99;
+
+- Variable names should be declared readable and understandable.
+    Ex) let a = 1; (X)
+        let userNumber = 3; (O)
