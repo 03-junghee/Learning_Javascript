@@ -1,0 +1,26 @@
+<HOW TO SET VARIABLES>
+
+- When setting variables, it is good for you to write a semicolon(;) afterwards.
+- If you want to use the string data type variable, you have to wrap it in quotation marks('' or "").
+    Ex) name = "LeeJeongHee";
+        age = 22;
+- Words already in use in Javascript cannot be used as names for variables.
+    Ex) class = 'math'; (X)
+
+<HOW TO EXPRESS VARIABLES>
+
+- When you want to express variables, you can solve it with alert() and console.log().
+    Ex) alert(name);
+        console.log(age);
+
+<HOW TO MAKE VARIABLE DECLARATIONS BETTER>
+
+- When setting a variable, use let to set a variable whose value changes.
+    Ex) let age = 23;
+
+(Whenever you declare a variable, you can use let to know whether I used this name as a variable name or not before.)
+
+- When setting a variable, use const to set a variable whose value doesn't change.
+    Ex) const PI = 3.14;
+
+(When using const, most invariant values are used. So variable names are often capitalized to inform other users of this.)
